@@ -1,10 +1,9 @@
 body{
-  	background-color: grey;
+  	background-color: black;
   	font-family: Courier New;
 }
 #fybca{
-  	text-align: center;
-  	background-image: url("images/bg.jpg"); 
+  	text-align: center; 
 	background-size: 1700px;
 }
 nav{
