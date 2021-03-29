@@ -4,6 +4,7 @@ body{
 }
 #fybca{
   	text-align: center; 
+	background-image: url("background.jpg");
 	background-size: 1700px;
 }
 nav{
