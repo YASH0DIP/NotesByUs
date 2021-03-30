@@ -1,18 +1,74 @@
 body{
 	background-color: grey;
+  background-image: url("images/background.jpg");
+  background-size: 100%;
   	font-family: Courier New;
 }
 #fybca{
   	text-align: center; 
-	background-image: url("images/background.jpg");
-	background-size: 1700px;
+}
+#sidebar {
+  position:absolute;
+  top:15px;
+  left:-300px; 
+  width:300px;
+  height:50%;
+  background:#151719;
+  transition:all 300ms linear;
+  background-image: url("images/bg1.jpg");
+  background-size: 200%;
+  border-radius: 10%;
+}
+#sidebar.active {
+  left:0px;
+}
+#sidebar .toggle-btn {
+  position:absolute;
+  left:321px;
+  top:10px;
+}
+#sidebar .toggle-btn span {
+  display:block;
+  width:30px;
+  height:5px;
+  background:#151719;
+  margin:5px 0px;
+  cursor:pointer;
+}
+#sidebar div.list div.item {
+  padding:15px 10px;
+  color:#fcfcfc;
+  text-transform:uppercase;
+  font-size:20px;
+}
+#sideitems{
+  color: white;
+}
+#sidefootericons{
+  color: white;
+  border:2px solid white;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top:5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin:5em 15px 0 15px; 
+}
+#nm{
+  color: black;
+  font-size:25px; 
+  border:3px solid black;
+  margin-left: 35px;
+  margin-top: -34px;
+  margin-bottom: -10px;
 }
 nav{
  	color:black;
- 	padding: 0.5em 0 0.5em 0;
+ 	padding: 1.5em 0 0.5em 0;
   	background-color: grey;
   	font-size: 2em;
   	text-align: center;
+    margin-top: 20px;
 }
 #introicons{
   	color: white;
@@ -21,8 +77,8 @@ nav{
   	background-color: grey;
 }
 a{
+    color:black;
   	text-decoration: none;
-  	font-family: roboto;
 }
 p{
   	text-align: center;
@@ -56,3 +112,23 @@ hr{
 	border:1px solid green;
 	border-radius: 40%;
 }
+footer{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+#endingdots{
+  text-align: center;
+  color:white;
+  font-size: 35px;
+}
+#footicons{
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+#footericons{
+  margin-left: 10px;
+}
+

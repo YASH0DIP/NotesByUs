@@ -4,12 +4,36 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <link href="home.css" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="sidebar.js"></script>
       <script async src="https://kit.fontawesome.com/7ae16fe407.js" crossorigin="anonymous"></script>
   </head>
   <body>
       <nav>
         BCA(Bachelor in Computer Application)
-      </nav>
+        </nav>
+        <div id="sidebar">
+  <div class="toggle-btn" onclick="toggleSidebar(this)">
+    <span></span>
+    <span></span>
+    <span></span>
+    <div id="nm">
+    <b><a href="home.html">NotesByUs</a></b>
+  </div>
+  </div>  
+  <div class="list">
+    <div class="item"><a href="home.html" id="sideitems"><i class="fas fa-home">  Home</i></a></div>
+    <div class="item"><a href="#" id="sideitems"><i class="fas fa-user">  About us</i>
+    </a></div>
+    <div class="item"><a href="#" id="sideitems"><i class="fas fa-phone"> Contact us</i></a></div>
+    <div id="sidefootericons">
+      <i class="fa fa-facebook"></i>
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-twitter"></i>
+     <i class="fas fa-envelope"></i>
+    </div>
+    <hr/>
+  </div>
+</div>
       <div id="introicons">
       	<i class="fab fa-cuttlefish"></i>
       	<i class="fab fa-html5"></i>
@@ -29,7 +53,7 @@
       	<a id="syllabi" href="docs/syllabus.pdf" download>SYLLABUS OF B.C.A.</a>
       	<br/>
       	<br/>
-      <section id="sem1">
+      <section id="semone">
         <b id="subtitle">F.Y.B.C.A. SEM-I SUBJECTS</b>
         <br/>
         <br/>
@@ -56,10 +80,8 @@
         <a id="subs" href="_blank" download>7.Pratical On C Programming</a>
         <br/>
       </section>
-      	<br/>
   		<hr/>
-  		<br/>
-  	  <section id="sem2">
+  	  <section id="semtwo">
         <b id="subtitle">F.Y.B.C.A. SEM-II SUBJECTS</b>
         <br/>
         <br/>
@@ -88,9 +110,20 @@
         <i class="fas fa-plus" id="icons"></i>
         <i class="fas fa-plus" id="icons"> </i>
         <a id="subs" href="_blank" download>7.Pratical On C++ Programming</a><br/>
-      </section>
-      <br/>
-      <hr/>
+        <br/>
+        <hr/>
+   </section>
      </div>
+     <section id="endingdots">.     .     .     .     .</section>
+     <footer>
+      <section id="footicons">
+     <i class="fa fa-facebook" id="footericons"></i>
+     <i class="fa fa-instagram" id="footericons"></i>
+     <i class="fa fa-twitter" id="footericons"></i>
+     <i class="fas fa-envelope" id="footericons"></i>
+   </section>
+        @NotesByUs Copyright Reserved
+        <i class="fa fa-copyright"></i> 2021
+         </footer>
   </body>
 </html>
