@@ -12,7 +12,7 @@ body{
   width:275px;
   height:60%;
   transition:all 300ms linear;
-  background-image: url("images/bg1.jpg");
+  background-image: url("images/sidebarbg.jpg");
   background-size: 250%;
   border-radius: 10%; 
   padding-left: 10px;
