@@ -1,115 +1,129 @@
 body{
-  background: #4863a0;
+  background: white;
   	font-family: Courier New;
 }
 #fybca{
   	text-align: center; 
 }
 #sidebar {
-  position:absolute;
+  position:fixed;
   top:15px;
   left:-300px; 
-  width:300px;
-  height:50%;
+  width:275px;
+  height:60%;
   transition:all 300ms linear;
   background-image: url("images/bg1.jpg");
-  background-size: 200%;
-  border-radius: 10%;
+  background-size: 250%;
+  border-radius: 10%; 
+  padding-left: 10px;
 }
 #sidebar.active {
-  left:0px;
+  left:-25px;
 }
 #sidebar .toggle-btn {
   position:absolute;
   left:321px;
-  top:10px;
+  top:13px;
 }
 #sidebar .toggle-btn span {
   display:block;
-  width:30px;
-  height:5px;
-  background:#151719;
+  width:26px;
+  height:4.5px;
+  background: #151719;
   margin:4.5px 0px;
   cursor:pointer;
 }
 #sidebar div.list div.item {
-  padding:15px 10px;
-  color:#fcfcfc;
+  padding-bottom: 10px;
+  padding-top:15px;
+  color: #fcfcfc;
   text-transform:uppercase;
   font-size:20px;
+  text-align: center;
 }
 #sideitems{
   color: white;
 }
 #sidefootericons{
   color: white;
-  border:2px solid white;
   font-size: 1.5em;
   text-align: center;
-  margin-top:5em;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin:2em 15px 0 15px; 
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: -3em;
+  padding-right: -3em;
+  margin:0.5em 15px 0 15px; 
 }
 #nm{
   color: black;
   font-size:25px; 
   border:3px solid black;
-  margin-left: 35px;
-  margin-top: -34px;
-  margin-bottom: -10px;
+  border-radius: 12%;
+  margin-left: 40px;
+  margin-top: -31.5px;
   padding:0 0.2em 0 0.2em;
 }
 nav{
  	color: black;
  	padding: 1.5em 0 0.5em 0;
-  	background-color: #fbe8d3;
+  	background-color: #f4d47c;
   	font-size: 2em;
+    font-weight: 900;
   	text-align: center;
-    margin-top: 20px;
+    border-radius: 36%;
+    padding-top: 20px;
 }
 #introicons{
-  	color: #2b2e4a;
+  padding-top: 20px;
+  	color: #3a4f75;
   	text-align: center;
   	font-size:2.5em;
-  	background-color: #fbe8d3;
 }
 a{
     color:black;
   	text-decoration: none;
 }
 p{
+  font-weight: 999;
   	text-align: center;
-  	color:lightgreen;
+  	color:green;
   	font-size: 1.2em;
   	font-family: Courier;
 }
 #bookicon{
   	font-size:3em;
-  	color:pink;
+  	color:#4274fd;
   	text-align: justify-all;
 }
 #icons{
-  	color:#fbe8d3;
+  	color: #323954;
   	font-size: 1.3em;
 }
 #syllabi{
   	font-size: 3.2em;
   	font-family: serif;
-  	color:pink;
+  	color: #4274fd;
 }
 #subtitle{
-  	color:darkred;
+  	color: #62c799;
   	font-size: 2em;
 }
 #subs{
-  	color: white;
+  	color: #2b2e4a;
     font-family: "Poppins";
   	font-size: 1.5em;
 }
 hr{
-	border:1px solid #2b2e4a;
-	border-radius: 40%;
+	border:2px solid #bbb;
+	border-radius: 50%;
+}
+#aboutus{
+  font-weight: 999;
+  font-size:27px;
+  text-align: center;
+}
+div #aboutpara{
+  font-size: 18px;
 }
 footer{
   background-color: black;
