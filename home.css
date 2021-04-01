@@ -19,7 +19,7 @@ body{
   height:75%;
   transition:all 300ms linear;
   background-image: url("images/sidebarbg.jpg");
-  background-size: cover;
+  background-size: 300%;
   border-radius: 13%; 
   padding-left: 10px;
 }
@@ -95,8 +95,8 @@ p{
   	font-family: Courier;
 }
 #bookicon{
-  	font-size:2em;
-  	color:#4274fd;
+  	font-size:1em;
+  	color:#F26D21;
   	text-align: justify-all;
 }
 #icons{
@@ -106,10 +106,10 @@ p{
 #syllabi{
   	font-size: 2em;
   	font-family: New Tegomin;
-  	color: #4274fd;
+    color: #F26D21;
 }
 #subtitle{
-  	color: #62c799;
+  	color:  #9A2617;
   	font-size: 2em;
 }
 #subs{
