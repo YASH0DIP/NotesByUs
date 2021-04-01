@@ -1,28 +1,28 @@
 body{
   background: white;
-  	font-family: Courier New;
+  font-family:'Courier';
 }
 #fybca{
-  	text-align: center; 
+    text-align: center; 
 }
 #sidebar {
   position:fixed;
   top:15px;
   left:-300px; 
-  width:275px;
-  height:78%;
+  width:280px;
+  height:75%;
   transition:all 300ms linear;
   background-image: url("images/sidebarbg.jpg");
-  background-size: 300%;
+  background-size: 350%;
   border-radius: 13%; 
   padding-left: 10px;
 }
 #sidebar.active {
-  left:-25px;
+  left:-35px;
 }
 #sidebar .toggle-btn {
-  position:absolute;
   left:321px;
+  position: absolute;
 }
 #sidebar .toggle-btn span {
   display:block;
@@ -65,7 +65,7 @@ body{
 }
 #navbar{
   padding-top: 15px;
- 	color: black;
+ 	color: #093145;
   	font-size: 2em;
     font-weight: 900;
   	text-align: center;
@@ -88,7 +88,7 @@ p{
   	font-family: Courier;
 }
 #bookicon{
-  	font-size:3em;
+  	font-size:2em;
   	color:#4274fd;
   	text-align: justify-all;
 }
@@ -97,8 +97,9 @@ p{
   	font-size: 1.3em;
 }
 #syllabi{
-  	font-size: 3.2em;
-  	font-family: serif;
+  	font-size: 2.2em;
+  	font-family: New Tegomin;
+    font-weight: 999;
   	color: #4274fd;
 }
 #subtitle{
@@ -107,8 +108,9 @@ p{
 }
 #subs{
   	color: #2b2e4a;
-    font-family: "Poppins";
-  	font-size: 1.5em;
+    font-weight: 999;
+    font-family: 'Averia Serif Libre';
+  	font-size: 1.4em;
 }
 hr{
 	border:2px solid #bbb;
@@ -129,7 +131,8 @@ footer{
   text-align: center;
   padding-bottom: 10px;
   border-bottom:3px;
-  border-radius: 30%; 
+  border-radius: 30%;
+  font-family: Courier Prime; 
 }
 
 #footicons{
