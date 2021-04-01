@@ -1,19 +1,25 @@
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body{
-  background: white;
   font-family:'Courier';
 }
 #fybca{
-    text-align: center; 
+  text-align: center; 
 }
 #sidebar {
-  position:fixed;
+  position:absolute;
   top:15px;
   left:-300px; 
   width:280px;
   height:75%;
   transition:all 300ms linear;
   background-image: url("images/sidebarbg.jpg");
-  background-size: 350%;
+  background-size: cover;
   border-radius: 13%; 
   padding-left: 10px;
 }
@@ -35,17 +41,17 @@ body{
 #sidebar div.list div.item {
   padding-bottom: 10px;
   padding-top:15px;
-  color: #fcfcfc;
+  color: black;
   text-transform:uppercase;
   font-size:22px;
   text-align: center;
   font-weight: 999;
 }
 #sideitems{
-  color: white;
+  color: black;
 }
 #sidefootericons{
-  color: white;
+  color: black;
   font-size: 1.4em;
   text-align: center;
   padding-top:10px;
@@ -113,7 +119,7 @@ p{
   	font-size: 1.4em;
 }
 hr{
-	border:2px solid #bbb;
+	border:2px solid black;
 	border-radius: 50%;
 }
 #aboutus{
