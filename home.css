@@ -39,6 +39,7 @@ body{
   text-transform:uppercase;
   font-size:22px;
   text-align: center;
+  font-weight: 999;
 }
 #sideitems{
   color: white;
@@ -51,7 +52,7 @@ body{
   padding-bottom:5px;
   padding-left: -3em;
   padding-right: -3em;
-  margin:3em 15px 0 15px; 
+  margin:2.8em 15px 0 15px; 
 }
 #nm{
   background-color:#f4d47c ;
@@ -94,12 +95,11 @@ p{
 }
 #icons{
   	color: #323954;
-  	font-size: 1.3em;
+  	font-size: 1.4em;
 }
 #syllabi{
-  	font-size: 2.2em;
+  	font-size: 2em;
   	font-family: New Tegomin;
-    font-weight: 999;
   	color: #4274fd;
 }
 #subtitle{
