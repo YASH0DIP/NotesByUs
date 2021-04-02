@@ -1,9 +1,9 @@
 html { 
   background: url(images/background.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 body{
   font-family:'Courier';
