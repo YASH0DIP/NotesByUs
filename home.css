@@ -1,5 +1,5 @@
 html { 
-  background: url(images/background.jpg) no-repeat center center fixed; 
+  background: url(images/background.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +16,7 @@ body{
   top:15px;
   left:-300px; 
   width:280px;
-  height:60%;
+  height:65%;
   transition:all 280ms linear;
   /*background-image: url("images/sidebarbg.jpg");
   background-size: 320%;*/
@@ -59,7 +59,7 @@ body{
   padding-bottom:5px;
   padding-left: -3em;
   padding-right: -3em;
-  margin:0.8em 15px 0 15px; 
+  margin:0.6em 15px 0 15px; 
 }
 #nm{
   background-color:#f4d47c ;
