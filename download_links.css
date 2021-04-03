@@ -1,5 +1,6 @@
 html { 
-  background: url(images/download_webpages_background.jpg) no-repeat center center fixed; 
+  opacity: 3.5;
+  background: url(images/subs_background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
