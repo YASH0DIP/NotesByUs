@@ -155,7 +155,7 @@ hr{
   text-align: center;
 }
 #creatorstag{
-  text-align:center;
+  text-align:right;
   font-size: 1.2em;
   margin-top: 10px;
   font-weight: bold;
@@ -165,7 +165,7 @@ hr{
   margin-left: 20px;
   margin-top: -5em;
   font-weight: 999;
-  text-align: center;
+  text-align: right;
 }
 footer{
   background-color: black;
