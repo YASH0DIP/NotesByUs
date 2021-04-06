@@ -125,11 +125,47 @@ hr{
 }
 #aboutus{
   font-weight: 999;
-  font-size:27px;
+  font-size: 2em;
   text-align: center;
 }
-div #aboutpara{
-  font-size: 18px;
+#yash{
+  background-color: #fbe8d3;
+  text-align: center;
+  border:2px black solid;
+  margin-top:5%;
+  margin-bottom:10%;
+  padding:2% 2%;
+}
+#creatorsimg{
+  height:110px;
+  width: 120px;
+  border:1px solid black;
+  background-image: url("images/yashbiopic.jpg");
+  background-size: 120%;
+  border-radius: 50%;
+  text-align: center;
+}
+#creatorsicon{
+  color:black;
+  text-align: center;
+  font-size: 1.4em;
+}
+#maintag{
+  font-size: 1.5em;
+  text-align: center;
+}
+#creatorstag{
+  text-align:center;
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#creatorsnm{
+  font-size: 1.3em;
+  margin-left: 20px;
+  margin-top: -5em;
+  font-weight: 999;
+  text-align: center;
 }
 footer{
   background-color: black;
