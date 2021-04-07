@@ -136,19 +136,35 @@ hr{
   margin-bottom:10%;
   padding:2% 2%;
 }
+#harsh{
+  background-color: #fbe8d3;
+  text-align: center;
+  border:2px black solid;
+  margin-top:5%;
+  margin-bottom:10%;
+  padding:2% 2%;
+}
+#abhi{
+  background-color: #fbe8d3;
+  text-align: center;
+  border:2px black solid;
+  margin-top:5%;
+  margin-bottom:10%;
+  padding:2% 2%;
+}
 #creatorsimg{
   height:110px;
   width: 120px;
   border:1px solid black;
-  background-image: url("images/yashbiopic.jpg");
-  background-size: 120%;
+  background-image: url("images/userpic.jpg");
+  background-size: 100%;
   border-radius: 50%;
   text-align: center;
 }
 #creatorsicon{
   color:black;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 #maintag{
   font-size: 1.8em;
