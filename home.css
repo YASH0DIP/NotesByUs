@@ -1,18 +1,18 @@
-html { 
+/*html { 
   background: url(images/background.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
+  background-size: cover; 
+}*/
 body{
-  font-family:'Courier';
+  font-family: Courier ;
 }
 #fybca{
   text-align: center; 
 }
 #sidebar {
-  position: fixed;
+  position: absolute;
   top:15px;
   left:-300px; 
   width:280px;
