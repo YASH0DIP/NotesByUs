@@ -1,4 +1,11 @@
 body{
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, black, transparent),
+        linear-gradient(to top right, blue, transparent),
+        linear-gradient(to bottom right, green, transparent),
+        linear-gradient(to bottom left, white, transparent);
+  background-blend-mode: screen;
   font-family:'Courier';
 }
 #semone{
@@ -11,7 +18,9 @@ body{
   width:280px;
   height:65%;
   transition:all 280ms linear;
-  background-color: #fbe8d3;;
+  background:
+        linear-gradient(orange,lightgreen,royalblue);
+  background-blend-mode: screen;
   border-radius: 13%; 
   padding-left: 10px;
 }
@@ -84,7 +93,7 @@ a{
   	text-decoration: none;
 }
 #subtitle{
-    color: #6495ED;
+    color: royalblue;
     font-size: 2em;
     font-family: 'Averia Serif Libre';
 }
@@ -104,31 +113,46 @@ a{
   text-align: center;
 }
 #yash{
-  background-color: royalblue;
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
   border:1px black solid;
-  border-radius: 10%;
+  border-radius: 12%;
   text-align: center;
   margin-top:5%;
   margin-bottom:10%;
   padding:2% 2%;
+  box-shadow: 5px 3px;
 }
 #harsh{
-  background-color: royalblue;
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
   border:1px black solid;
-  border-radius: 10%;
+  border-radius: 12%;
   text-align: center;
   margin-top:5%;
   margin-bottom:10%;
   padding:2% 2%;
+  box-shadow: 5px 3px;
 }
 #abhi{
-  background-color: royalblue;
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
   border:1px black solid;
-  border-radius: 10%;
+  border-radius: 12%;
   text-align: center;
   margin-top:5%;
   margin-bottom:10%;
   padding:2% 2%;
+  box-shadow: 5px 3px;
 }
 #creatorsimg{
   height:110px;
