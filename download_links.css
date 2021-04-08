@@ -113,11 +113,6 @@ a{
   text-align: center;
 }
 #yash{
-  background:
-        linear-gradient(red, transparent),
-        linear-gradient(to top left, lime, transparent),
-        linear-gradient(to top right, blue, transparent);
-  background-blend-mode: screen;
   border:1px black solid;
   border-radius: 12%;
   text-align: center;
@@ -127,11 +122,6 @@ a{
   box-shadow: 5px 3px;
 }
 #harsh{
-  background:
-        linear-gradient(red, transparent),
-        linear-gradient(to top left, lime, transparent),
-        linear-gradient(to top right, blue, transparent);
-  background-blend-mode: screen;
   border:1px black solid;
   border-radius: 12%;
   text-align: center;
@@ -141,11 +131,6 @@ a{
   box-shadow: 5px 3px;
 }
 #abhi{
-  background:
-        linear-gradient(red, transparent),
-        linear-gradient(to top left, lime, transparent),
-        linear-gradient(to top right, blue, transparent);
-  background-blend-mode: screen;
   border:1px black solid;
   border-radius: 12%;
   text-align: center;
