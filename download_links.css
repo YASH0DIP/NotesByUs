@@ -19,7 +19,7 @@ body{
   height:65%;
   transition:all 280ms linear;
   background:
-        linear-gradient(orange,lightgreen,royalblue);
+        linear-gradient(orange,lightgreen,lightblue);
   background-blend-mode: screen;
   border-radius: 13%; 
   padding-left: 10px;
