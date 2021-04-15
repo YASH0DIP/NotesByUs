@@ -126,30 +126,12 @@ hr{
   font-size: 2em;
   text-align: center;
 }
-#yash{
+#devs{
   border:1px black solid;
   border-radius: 10%;
   text-align: center;
   margin-top:5%;
-  margin-bottom:10%;
-  padding:2% 2%;
-  box-shadow:5px 3px;
-}
-#harsh{
-  border:1px black solid;
-  border-radius: 10%;
-  text-align: center;
-  margin-top:5%;
-  margin-bottom:10%;
-  padding:2% 2%;
-  box-shadow: 3px 3px;
-}
-#abhi{  
-  border:1px black solid;
-  border-radius: 10%;
-  text-align: center;
-  margin-top:5%;
-  margin-bottom:10%;
+  margin-bottom:5%;
   padding:2% 2%;
   box-shadow:5px 3px;
 }
@@ -165,20 +147,20 @@ hr{
 #creatorsicon{
   color:black;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 #maintag{
-  font-size: 1.8em;
+  font-size: 1.4em;
   text-align: center;
 }
 #creatorstag{
   text-align:right;
-  font-size: 1.3em;
+  font-size: 1em;
   margin-top: 10px;
   font-weight: bold;
 }
 #creatorsnm{
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-left: 20px;
   margin-top: -5em;
   font-weight: 999;
