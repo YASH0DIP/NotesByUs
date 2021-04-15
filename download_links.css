@@ -155,7 +155,7 @@ a{
 footer{
   background-color: black;
   color: #fbe8d3;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   padding-bottom: 10px;
   border-bottom:3px;
@@ -167,7 +167,7 @@ footer{
 } 
 #footicons{
   padding-top: 10px;
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
 }
 #footericons{
