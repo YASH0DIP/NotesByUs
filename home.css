@@ -15,12 +15,9 @@ body{
   top:15px;
   left:-300px;
   width:280px;
-  height:70%;
+  height:65%;
   transition:all 260ms ease;
-  background:
-    linear-gradient(lightpink,lightblue,lightgreen);
-    background-blend-mode: screen;
-  opacity:0.9;
+  background-color: #D3D3D3;
   border-radius: 13%; 
   padding-left: 10px;
 }
@@ -40,8 +37,8 @@ body{
   margin-bottom: 3px;
 }
 #sidebar div.list div.item {
-  padding-bottom: 10px;
-  padding-top:15px;
+  padding-bottom: 5px;
+  padding-top:10px;
   color: #fbe8d3;
   text-transform:uppercase;
   font-size:22px;
