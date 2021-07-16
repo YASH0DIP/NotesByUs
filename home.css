@@ -1,7 +1,7 @@
 html{
   background:
-        linear-gradient(to top right,royalblue,transparent),
-        linear-gradient(to bottom left,#FFE87C,transparent);
+        linear-gradient(to top right,lightblue,transparent),
+        linear-gradient(to bottom left,white,transparent);
   background-blend-mode: screen;
 }
 body{
@@ -15,10 +15,12 @@ body{
   top:15px;
   left:-300px;
   width:280px;
-  height:65%;
+  height:70%;
   transition:all 260ms ease;
   background:
-        linear-gradient(orange,lightgreen,lightblue);
+    linear-gradient(lightpink,lightblue,lightgreen);
+    background-blend-mode: screen;
+  opacity:0.9;
   border-radius: 13%; 
   padding-left: 10px;
 }
@@ -53,13 +55,13 @@ body{
   color: black;
   font-size: 1.4em;
   text-align: center;
-  padding-top:10px;
-  padding-bottom:5px;
+  padding-top:5px;
+  padding-bottom:15px;
   padding-left: -3em;
   padding-right: -3em;
   margin:0.6em 15px 0 15px; 
 }
-#nm{
+#nbu{
   background-color:#f4d47c ;
   color: black;
   font-size:25px; 
@@ -69,6 +71,7 @@ body{
   margin-top: -31px;
   padding:0 0.2em 0 0.2em;
 }
+
 #navbar{
   padding-top: 15px;
  	color: #093145;
@@ -93,7 +96,7 @@ p{
   	font-size: 1.2em;
   	font-family: Courier;
 }
-#bookicon{
+#syllabicon{
   	font-size:1em;
   	color:#F26D21;
   	text-align: justify-all;
@@ -108,8 +111,8 @@ p{
     color: #F26D21;
 }
 #subtitle{
-  	color:  #9A2617;
-  	font-size: 2em;
+  	color: maroon;
+  	font-size: 1.8em;
 }
 #subs{
   	color: #151B54;

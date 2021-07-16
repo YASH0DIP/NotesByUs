@@ -1,10 +1,7 @@
 body{
   background:
-        linear-gradient(red, transparent),
-        linear-gradient(to top left, black, transparent),
-        linear-gradient(to top right, blue, transparent),
-        linear-gradient(to bottom right, green, transparent),
-        linear-gradient(to bottom left, white, transparent);
+        linear-gradient(to top right,#fbe8d3,transparent),
+        linear-gradient(to bottom left,white,transparent);
   background-blend-mode: screen;
   font-family:'Courier';
 }
@@ -16,11 +13,12 @@ body{
   top:15px;
   left:-300px; 
   width:280px;
-  height:65%;
+  height:70%;
   transition:all 280ms linear;
   background:
-        linear-gradient(orange,lightgreen,lightblue);
+    linear-gradient(lightpink,lightblue,lightgreen);
   background-blend-mode: screen;
+  opacity:0.9;
   border-radius: 13%; 
   padding-left: 10px;
 }
@@ -38,6 +36,9 @@ body{
   background: #151719;
   cursor:pointer;
   margin-bottom: 3px;
+}
+#sidebar div.list{
+  padding-top:18px;
 }
 #sidebar div.list div.item {
   padding-bottom: 10px;
@@ -93,7 +94,7 @@ a{
   	text-decoration: none;
 }
 #subtitle{
-    color: royalblue;
+    color:#F26D21 ;
     font-size: 2em;
     font-family: 'Averia Serif Libre';
 }
@@ -102,7 +103,7 @@ a{
     font-size: 1em;
 }
 #subs{
-    color: #800517;
+    color: green;#F26D21;
     font-weight: 999;
     font-family: New Tegomin;
     font-size: 1.4em;
