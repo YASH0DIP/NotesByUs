@@ -167,8 +167,8 @@ hr{
   text-align: right;
 }
 #mailto{
-  border: 2px black solid;
-  padding:3px;
+  left:50%;
+  right:50%;
 }
 footer{
   background-color: black;
