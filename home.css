@@ -166,6 +166,10 @@ hr{
   font-weight: 999;
   text-align: right;
 }
+#mailto{
+  border: 2px black solid;
+  padding:3px;
+}
 footer{
   background-color: black;
   color: #fbe8d3;
