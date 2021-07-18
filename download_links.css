@@ -10,7 +10,7 @@ body{
 }
 #sidebar {
   position:fixed;
-  bottom:37.5%;
+  bottom:37.6%;
   right:100%;
   width:105%;
   height:60%;
@@ -63,6 +63,7 @@ body{
   border-radius: 12%;
   padding-left: 1%;
   padding-bottom: 0.5%;
+  padding-top: 0.5%;
 }
 #navbar{
  	  color: #093145;
