@@ -18,11 +18,11 @@ body{
   height:60%;
   padding-top:5%;
   transition:all 260ms ease;
-  background-color: #D3D3D3;
-  opacity:0.96;
+  background-color: #FFF8DC;
+  opacity:0.92;
 }
 #sidebar.active {
-  right:0.1%;
+  right:0.01%;
 }
 #sidebar .toggle-btn {
   left:85%;
