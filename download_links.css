@@ -16,7 +16,7 @@ body{
   height:60%;
   padding-top:5%;
   transition:all 260ms ease;
-  background-color: #FFF8DC;
+  background-color: #FFE4C4;
   opacity:0.92;
 }
 #sidebar.active {
