@@ -10,17 +10,17 @@ body{
 }
 #sidebar {
   position:fixed;
-  bottom:32.5%;
+  bottom:37.5%;
   right:100%;
   width:105%;
-  height:65%;
+  height:60%;
+  padding-top:5%;
   transition:all 260ms ease;
   background-color: #D3D3D3;
   opacity:0.95;
-  border-radius: 13%;
 }
 #sidebar.active {
-  right:5%;
+  right:0.1%;
 }
 #sidebar .toggle-btn {
   left:85%;
@@ -62,11 +62,11 @@ body{
   font-size:25px; 
   border:3px solid black;
   border-radius: 12%;
-  align-self: center;
+  padding-left: 1%;
 }
 #navbar{
-  padding-top: 15px;
- 	color: #093145;
+    padding-top: 15px;
+ 	  color: #093145;
   	font-size: 2em;
     font-weight: 900;
   	text-align: center;
