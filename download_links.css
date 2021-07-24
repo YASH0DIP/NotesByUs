@@ -10,10 +10,10 @@ body{
 }
 #sidebar {
   position:fixed;
-  bottom:37.6%;
+  top:-0.6%;
   right:100%;
   width:105%;
-  height:60%;
+  height:100%;
   padding-top:5%;
   transition:all 260ms ease;
   background-color: #F0F8FF;
@@ -33,6 +33,9 @@ body{
   background: #151719;
   cursor:pointer;
   margin-bottom: 3px;
+}
+#sidebar div.list{
+  padding-top:20%;
 }
 #sidebar div.list div.item {
   padding-bottom: 10px;
