@@ -12,7 +12,7 @@ body{
 }
 #sidebar {
   position:fixed;
-  top: -1%;
+  top: -0.2em;
   right:100%;
   width:105%;
   height:105%;
