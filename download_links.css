@@ -10,36 +10,36 @@ body{
 }
 #sidebar {
   position:fixed;
-  top: -0.2em;
   right:100%;
   width:105%;
   height:105%;
   padding-top:5%;
-  transition:all 260ms ease;
   background-color: #F0F8FF;
   opacity:0.92;
 }
 #sidebar.active {
+  top:-2%;
   right:0.01%;
 }
 #sidebar .toggle-btn {
-  left:87%;
+  left:90%;
   position:fixed;
+  top: 2.2%;
 }
 #sidebar .toggle-btn span {
   display:block;
-  width:26px;
-  height:4.5px;
+  width:28px;
+  height:5.5px;
   background: #151719;
-  cursor:pointer;
   margin-bottom: 3px;
 }
 #sidebar div.list{
-  padding-top:20%;
+  padding-top:18%;
 }
 #sidebar div.list div.item {
   padding-bottom: 12px;
   padding-top:12px;
+  color: #fbe8d3;
   text-transform:uppercase;
   font-size:1.6em;
   text-align:center;
@@ -52,8 +52,8 @@ body{
   color: black;
   font-size: 1.6em;
   text-align: center;
-  padding-top:10px;
-  padding-bottom:20px;
+  padding-top:5px;
+  padding-bottom:15px;
   padding-left: -3em;
   padding-right: -3em;
   margin:0.6em 15px 0 15px; 
@@ -61,12 +61,12 @@ body{
 #nbu{
   background-color:#f4d47c ;
   color: black;
-  font-size:25px; 
-  border:3px solid black;
-  border-radius: 12%;
-  padding-left: 1%;
-  padding-bottom: 0.5%;
-  padding-top: 0.5%;
+  font-size:22px; 
+  border:2px solid black;
+  border-radius: 11%;
+  padding:2px;
+  position: fixed;
+  opacity:0.7;
 }
 #navbar{
  	  color: #093145;
@@ -98,22 +98,22 @@ a{
     font-size: 1em;
 }
 #subs{
-    color: green;#F26D21;
+    color: green;
     font-weight: 999;
     font-family: New Tegomin;
     font-size: 1.4em;
 }
 #aboutus{
+  margin-top:-0.5%;
   font-weight: 999;
-  font-size:27px;
+  font-size:2em;
   text-align: center;
 }
 #devs{
   border:1px black solid;
   border-radius: 10%;
   text-align: center;
-  margin-top:5%;
-  margin-bottom:5%;
+  margin:-5% 0 5% 0;
   padding:2% 2%;
   box-shadow:5px 3px;
 }
@@ -148,6 +148,18 @@ a{
   font-weight: 999;
   text-align: right;
 }
+#mailto{
+  color: black;
+  font-weight: 999;
+  text-align: center;
+  font-family: Courier;
+  margin:0 12% 2% 12%;
+  font-size: 1em;
+  border: 2px solid black;
+  border-radius:0 55% 55% 0;
+  padding:0.6em 0;
+  background-color: #F0F8FF;
+}
 footer{
   background-color: black;
   color: #fbe8d3;
@@ -155,7 +167,6 @@ footer{
   text-align: center;
   padding-bottom: 10px;
   border-bottom:3px;
-  border-radius: 30%;
   font-family: Courier Prime; 
 }
 #footicons a{

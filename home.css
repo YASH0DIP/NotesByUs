@@ -121,6 +121,7 @@ hr{
 	border-radius: 50%;
 }
 #aboutus{
+  margin-top: -0.5%;
   font-weight: 999;
   font-size: 2em;
   text-align: center;
@@ -129,8 +130,7 @@ hr{
   border:1px black solid;
   border-radius: 10%;
   text-align: center;
-  margin-top:5%;
-  margin-bottom:5%;
+  margin:-5% 0 8% 0;
   padding:2% 2%;
   box-shadow:5px 3px;
 }
