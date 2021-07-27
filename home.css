@@ -11,36 +11,31 @@ body{
   text-align: center; 
 }
 #sidebar {
-  position:fixed;
-  top: -0.2em;
+  position: fixed;
   right:100%;
   width:105%;
   height:105%;
-  padding-top: 5%;
-  transition:all 260ms ease;
   background-color: #F0F8FF;
   opacity:0.92;
 }
 #sidebar.active {
+  top: -2%;
   right:0.01%;
 }
 #sidebar .toggle-btn {
-  left:87%;
-  position:fixed;
-  cursor: pointer;
-  display: block;
+  left:90%;
+  position: fixed;
+  top: 2.2%;
 }
 #sidebar .toggle-btn span {
   display:block;
-  width:26px;
-  height:4.5px;
+  width:28px;
+  height:5.5px;
   background: #151719;
-  cursor: pointer;
   margin-bottom: 3px;
-  transition: all 1s ease-in-out;
 }
 #sidebar div.list{
-  padding-top:25%;
+  padding-top:18%;
 }
 #sidebar div.list div.item {
   padding-bottom: 12px;
@@ -67,13 +62,12 @@ body{
 #nbu{
   background-color:#f4d47c ;
   color: black;
-  font-size:25px; 
-  border:3px solid black;
-  border-radius: 12%;
-  padding-left: 1%;
-  padding-bottom: 0.5%;
-  padding-top: 0.5%;
-
+  font-size:22px; 
+  border:2px solid black;
+  border-radius: 11%;
+  padding: 2px;
+  position: fixed;
+  opacity: 0.7;
 }
 #navbar{
  	color: #093145;
@@ -172,8 +166,16 @@ hr{
   text-align: right;
 }
 #mailto{
-  left:50%;
-  right:50%;
+  color: black;
+  font-weight: 999;
+  text-align: center;
+  font-family: Courier;
+  margin:0 15% 2% 15%;
+  font-size: 1em;
+  border: 2px solid black;
+  border-radius:0 55% 55% 0;
+  padding:7px 0;
+  background-color: #F0F8FF;
 }
 footer{
   background-color: black;
@@ -182,7 +184,6 @@ footer{
   text-align: center;
   padding-bottom: 10px;
   border-bottom:3px;
-  border-radius: 30%;
   font-family: Courier Prime; 
 }
 #footicons a{
