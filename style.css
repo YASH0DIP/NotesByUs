@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: Courier ;
+  font-family: Courier;
 }
 
 hr {
@@ -102,7 +102,7 @@ a{
 
 #subs_icon{
   	color: #151B54;
-  	font-size: 1.4em;
+  	font-size: 1.1em;
 }
 
 #subs{
@@ -122,10 +122,18 @@ a{
 
 #units {
   text-decoration: none;
-  color: darkgreen;
+  color: black;
   font-size: 1em;
   font-weight: 999;
   line-height: 2em;
+  font-family: Courier;
+  font-weight: 999;
+}
+
+#units:hover{
+  font-size: 1.2em;
+  transition: all .5s ease;
+  color: #a52a2a;
 }
 
 .title{
