@@ -112,12 +112,11 @@ a{
     font-size: 1em;
     line-height: 2em;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 #subs:hover{
-  font-size: .9em;
-  transition: all 1.5s ease;
-  transition-duration: 3s;
+  color: cornflowerblue;
 }
 
 #units {
