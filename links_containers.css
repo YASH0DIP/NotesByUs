@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+
+
+/* First Year */
+
+#active_subject101,
+#active_subject102,
+#active_subject103,
+#active_subject104,
+#active_subject201,
+#active_subject202,
+#active_subject203,
+#active_subject204 {
+    display: none;
+}
+
+.bca101,
+.bca102,
+.bca103,
+.bca104,
+.bca201,
+.bca202,
+.bca203,
+.bca204 {
+    visibility: hidden;
+    display: none;
+}
+
+#active_subject101:checked~.bca101 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject102:checked~.bca102 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject103:checked~.bca103 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject104:checked~.bca104 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject201:checked~.bca201 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject202:checked~.bca202 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject203:checked~.bca203 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject204:checked~.bca204 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+/* Second Year */
+
+#active_subject301,
+#active_subject302,
+#active_subject303,
+#active_subject304,
+#active_subject401,
+#active_subject402,
+#active_subject403,
+#active_subject404 {
+    display: none;
+}
+
+.bca301,
+.bca302,
+.bca303,
+.bca304,
+.bca401,
+.bca402,
+.bca403,
+.bca404 {
+    visibility: hidden;
+    display: none;
+}
+
+#active_subject301:checked~.bca301 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject302:checked~.bca302 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject303:checked~.bca303 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject304:checked~.bca304 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject401:checked~.bca401 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject402:checked~.bca402 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject403:checked~.bca403 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject404:checked~.bca404 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+/*Third Year*/
+
+
+#active_subject501,
+#active_subject502,
+#active_subject503,
+#active_subject504,
+#active_subject601,
+#active_subject602,
+#active_subject603,
+#active_subject604 {
+    display: none;
+}
+
+.bca501,
+.bca502,
+.bca503,
+.bca504,
+.bca601,
+.bca602,
+.bca603,
+.bca604 {
+    visibility: hidden;
+    display: none;
+}
+
+#active_subject501:checked~.bca501 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject502:checked~.bca502 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier6
+}
+
+#active_subject503:checked~.bca503 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject504:checked~.bca504 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject601:checked~.bca601 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject602:checked~.bca602 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject603:checked~.bca603 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}
+
+#active_subject604:checked~.bca604 {
+    visibility: visible;
+    display: inline;
+    font-family: Courier;
+}

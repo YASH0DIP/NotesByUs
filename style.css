@@ -1,0 +1,240 @@
+html {
+  background:
+        linear-gradient(to top right,white,transparent),
+        linear-gradient(to bottom left,lightblue,transparent);
+  background-blend-mode: screen;
+}
+
+body {
+  font-family: Courier ;
+}
+
+hr {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.notesbyus_title {
+  text-decoration: none;
+  background-color: #f4d47c;
+  color: black;
+  font-size: 24px;
+  font-weight: 999;
+  position: absolute;
+  margin: 1.5% 0 0 1.5%;
+  padding: 1px;
+  border: 3px solid black;
+  border-radius: 11%;
+}
+
+.notesbyus_title:hover{
+  font-size: 20px;
+  transition: all 1.5s ease-in-out;
+  transition-duration: 2s;
+}
+
+.main_title {
+  color: #093145;
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom:3%;
+}
+
+.intro_icons {
+  color: #3a4f75;
+  text-align: center;
+  font-size: 2.4em;
+  margin-bottom: 3%;
+}
+
+.intro_para {
+  font-weight: 999;
+  text-align: center;
+  color: green;
+  font-size: 1.2em;
+  font-family: Courier;
+  margin-bottom: 3%;
+}
+
+.syllabus_link {
+  font-size:1.5em;
+  font-family: New Tegomin;
+  color: #F26D21;
+  background-color: black;
+  line-height: 2em;
+  padding: 5px;
+  border: 2px black solid;
+  border-radius: 10%;
+}
+
+.syllabus_link:hover{
+  font-size: 1em;
+  transition: all 1.5s ease-in-out;
+  transition-duration: 3s;
+}
+
+.download_icon {
+  font-size: 1em;
+  color: #F26D21;
+}
+
+.main_container, .intro_div {
+  text-align: center; 
+}
+
+.fybca,
+.sybca,
+.tybca {
+  text-align: center;
+}
+
+#sem_title {
+  color: maroon;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+#subs_icon{
+  	color: #151B54;
+  	font-size: 1.4em;
+}
+
+#subs{
+  	color: #151B54;
+    font-family: 'Averia Serif Libre';
+  	font-size: auto;
+    font-size: 1em;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+#subs:hover{
+  font-size: .9em;
+  transition: all 1.5s ease;
+  transition-duration: 3s;
+}
+
+#units {
+  text-decoration: none;
+  color: darkgreen;
+  font-size: 1em;
+  font-weight: 999;
+  line-height: 2em;
+}
+
+.title{
+  font-weight: 999;
+  font-size: 2em;
+  text-align: center;
+}
+
+.devs{
+  border:1px black solid;
+  border-radius: 10%;
+  text-align: center;
+  margin:-1% 0 8% 0;
+  padding:2% 2%;
+  box-shadow:5px 3px;
+}
+
+.creators_img{
+  height:110px;
+  width: 120px;
+  border:1px solid black;
+  background-image: url("images/userpic.jpg");
+  background-size: 100%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.creators_icon{
+  color:black;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.creators_icon:hover{
+  font-size: 1.4em;
+  color: cornflowerblue;
+  transition: all 0.5s ease-in-out;
+}
+
+.maintag{
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.creators_tag{
+  text-align:right;
+  font-size: 1em;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.creators_name{
+  font-size: 1.3em;
+  margin-left: 20px;
+  margin-top: -5em;
+  font-weight: 999;
+  text-align: right;
+}
+
+.mailto{
+  color: black;
+  font-weight: 999;
+  text-align: center;
+  font-family: Courier;
+  margin:0 12% 2% 12%;
+  font-size: 1.08em;
+  border: 2px solid black;
+  border-radius:0 55% 55% 0;
+  padding:0.6em 0;
+  background-color: #F0F8FF;
+}
+
+footer{
+  background-color: black;
+  color: #fbe8d3;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom:3px;
+  font-family: Courier Prime; 
+}
+
+.footicons a{
+  color:#fbe8d3;
+} 
+
+.footicons{
+  padding-top: 10px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.footericons{
+  margin-left: 10px;
+}
+
+.footicons a:hover {
+  font-size: 1.4em;
+  color: cornflowerblue;
+  transition: all 0.5s ease-in-out;
+}
+
+#copyrights{
+  font-family: 'Averia Serif Libre';
+
+}
+
+.watermark{
+  font-family: 'Averia Serif Libre';
+  font-size: 12px;
+  opacity: 0.19;
+}
