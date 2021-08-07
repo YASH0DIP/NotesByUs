@@ -96,7 +96,7 @@ a{
 
 #sem_title {
   color: maroon;
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 2em;
 }
 
@@ -129,6 +129,7 @@ a{
 }
 
 .title{
+  margin-top: -1.5%;
   font-weight: 999;
   font-size: 2em;
   text-align: center;
