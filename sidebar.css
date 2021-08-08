@@ -33,8 +33,9 @@
   width: 100%;
   color: white;
   font-size: 1em;
-  line-height: 60px;
-  text-align: center;
+  line-height: 55px;
+  text-align: left;
+  margin-left: 4%;
   box-sizing: border-box;
   border-bottom: 1px solid black;
   border-top: 1px solid rgba(255, 255, 255, .1);
@@ -51,7 +52,8 @@
 
 .sidebar #sidelinks i {
   font-size: 1.4em;
-  margin-right: .5em;
+  margin-left: 1.5em;
+  margin-right: .1em;
 }
 
 .sidebar #sidelinks span {
