@@ -38,10 +38,10 @@ I want to become a **full stack developer**. Currently a 3rd Year **CS Grad Stud
 <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" /></span>
 <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" /></span>
 </div>
+
 ### Feedback
 
 If you have any feedback, please reach out to me at jainyashodip777@gmail.com
-
 
 ## License
 
