@@ -26,7 +26,8 @@ Maharashtra University](http://nmu.ac.in).
 
 
 ## 🚀 About Me
-I want to become a **full stack developer**. Currently a 3rd Year **CS Grad Student** and looking to imbibe new *technologies, tools, languages, frameworks and more.*
+I want to become a **full stack developer**. Currently a final year MCA student and looking to imbibe new technologies, tools, languages, frameworks and more.
+
 ## 🛠 Skills
 <div>
 <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /></span>
