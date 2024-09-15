@@ -38,6 +38,9 @@ I want to become a **full stack developer**. Currently a final year MCA student 
 <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" /></span>
 <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" /></span>
 <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" /></span>
+<span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" /></span>
+  <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" /></span>
+  <span><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg" /></span>
 </div>
 
 ### Feedback
